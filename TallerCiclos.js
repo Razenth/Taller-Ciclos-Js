@@ -106,7 +106,18 @@
 
 //------------------------------ 6 
 
-//FAALTAAAA
+// for (let i=1;i<=5;i++){
+//     for (let j=1;j<=4;j++){
+//         if (j<4){
+//         document.write(`1.${i}.${j}-`)
+//         }
+
+//         else if (j==4){
+//         document.write(`1.${i}.${j}<br>`)
+//         }
+//     }
+    
+// }
 
 //-------------------------------- 7 
 
@@ -133,6 +144,7 @@
 //
 // }else{
 //     alert('Número no coincide con los dados')
+    // break
 // }
 
 // for (i=1;i<=rango;i++){
@@ -171,25 +183,29 @@
 // cantidadTrab=+prompt('Ingrese cantidad de vendedores en su empresa')
 
 // sueldoBase=+prompt('Ingrese el sueldo base')
+// if (cantidadTrab>0 && sueldoBase>0){
+//     for (i=1;i<=cantidadTrab;i++){
+//         vent1=+prompt(`
+//         Trabajador ${i}
+//         Ingrese valor de Venta 1`)
+//         vent2=+prompt(`
+//         Trabajador ${i}
+//         Ingrese valor de Venta 2`)
+//         vent3=+prompt(`
+//         Trabajador ${i}
+//         Ingrese valor de Venta 3`)
+//         totalventas=vent1+vent2+vent3
+//         comision=totalventas*0.1
+//         cont+=(`
+//         Trabajador ${i}
 
-// for (i=1;i<=cantidadTrab;i++){
-//     vent1=+prompt(`
-//     Trabajador ${i}
-//     Ingrese valor de Venta 1`)
-//     vent2=+prompt(`
-//     Trabajador ${i}
-//     Ingrese valor de Venta 2`)
-//     vent3=+prompt(`
-//     Trabajador ${i}
-//     Ingrese valor de Venta 3`)
-//     totalventas=vent1+vent2+vent3
-//     comision=totalventas*0.1
-//     cont+=(`
-//     Trabajador ${i}
-
-//     Valor Comisiones: ${comision}
-//     Total Semana (Sueldo,Ventas+Comision):${totalventas+comision+sueldoBase}
-//     `)
+//         Valor Comisiones: ${comision}
+//         Total Semana (Sueldo,Ventas+Comision):${totalventas+comision+sueldoBase}
+//         `)
+    
+//     }
+// }else{
+//     alert('Error en los datos ingresados')
 // }
 // alert(cont)
 
